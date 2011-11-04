@@ -101,6 +101,7 @@
     <string-array name="values_status_bar_battery" translatable="false">
         <item>0</item>
         <item>1</item>
+        <item>3</item>
         <item>2</item>
         <item>3</item>
     </string-array>
