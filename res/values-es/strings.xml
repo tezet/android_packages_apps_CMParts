@@ -315,6 +315,7 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Ocultar las flechas de ayuda de dirección</string>
     <string name="pref_lockscreen_style_title">Estilo de bloqueo de pantalla</string>
     <string name="pref_lockscreen_style_summary">Escoja el estilo de pantalla de bloqueo</string>
+
     <string name="pref_rotary_style_title">Estilo Giratorio</string>
     <string name="pref_rotary_style_summary">Escoger el estilo para el anillo giratorio</string>
     <string name="pref_ringlock_style_title">Estilo Anillo</string>
