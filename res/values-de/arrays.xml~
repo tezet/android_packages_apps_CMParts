@@ -215,6 +215,10 @@
     <item>Blasen</item>
     <item>Ringe</item>
     <item>Holo</item>
+<<<<<<< HEAD
+
+=======
+>>>>>>> cyanogen/gingerbread
   </string-array>
 
   <string-array name="pref_lockscreen_background_entries">
