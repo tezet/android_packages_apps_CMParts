@@ -244,8 +244,14 @@
     <string name="pref_lockscreen_rotary_hide_arrows_summary">Elrejti az irányított nyilakat</string>
     <string name="pref_lockscreen_style_title">Zárképernyő stílus</string>
     <string name="pref_lockscreen_style_summary">Zárképernyő stílusának kiválasztása</string>
+    <string name="lockscreen_style_entry_tabs">Csúszó fül</string>
+    <string name="lockscreen_style_entry_rotary">Forgó</string>
+    <string name="lockscreen_style_entry_ring">Gyűrű</string>
     <string name="pref_in_call_style_title">Bejövő hívás stílus</string>
     <string name="pref_in_call_style_summary">Bejövő hívás stílusának kiválasztása</string>
+    <string name="incall_style_entry_tabs">Csúszó fül</string>
+    <string name="incall_style_entry_rotary">Forgó</string>
+    <string name="incall_style_entry_ring">Gyűrű</string>
     <string name="lockscreen_music_title">Zene vezérlése</string>
     <string name="pref_volbtn_music_controls_title">Zene irányítása hangerő gombbal</string>
     <string name="pref_volbtn_music_controls_summary">Kikapcsolt képernyőnél hosszú nyomásra ugrás a következő számra.</string>
@@ -362,6 +368,10 @@
     <!-- Performance Settings : VM Heap Size -->
     <string name="pref_heapsize_title">VM méret</string>
     <string name="pref_heapsize_summary">Maximális virtuális memória méret (újraindítás szükséges)</string>
+
+    <!-- Performance : Disable bootanimation -->
+    <string name="pref_disable_bootanimation_title">Boot animáció tiltása</string>
+    <string name="pref_disable_bootanimation_summary">A gyorsabb rendszerindítás érdekében a boot animáció ne jelenjen meg</string>
 
     <!-- Performance : Lock home memory -->
     <string name="pref_lock_home_title">Tartsa a főképernyőt a memóriában</string>
@@ -721,7 +731,7 @@
     <string name="pref_use_16bpp_alpha_summary">Használata növeli a görgetés teljesítményét, de megjelenítési hibák előfordulhatnak (úraindítás szükséges)</string>
 
     <!-- User interface: Tablet tweaks -->
-    <string name="tablet_tweaks_title_head">Tábla finomhangolás</string>
+    <string name="tablet_tweaks_title_head">Tablet finomhangolás</string>
     <string name="tablet_tweaks_summary_head">Táblagépen használatos beállítások melyek telefonon is működnek</string>
     <string name="tablet_tweaks_sb_bottom_title">Állapotsor alulra</string>
     <string name="tablet_tweaks_sb_bottom_summary">Állapotsor alulra helyezése. Táblagépeken használatos képernyő-gombokkal (home, menü, vissza stb.)</string>
