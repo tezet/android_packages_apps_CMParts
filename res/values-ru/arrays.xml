@@ -230,6 +230,7 @@
     <string-array name="entries_status_bar_battery">
         <item>Иконка (По умолчанию)</item>
         <item>Процентный</item>
+        <item>MIUI</item>
         <item>Скрытый</item>
     </string-array>
 
