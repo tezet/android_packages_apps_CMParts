@@ -54,9 +54,9 @@
     </string-array>
 
     <string-array name="entries_install_location">
-        <item>Automatic</item>
-        <item>Internal</item>
-        <item>External</item>
+        <item>Otomatik</item>
+        <item>Dahili</item>
+        <item>Harici</item>
     </string-array>
 
     <string-array name="values_install_location" translatable="false">
@@ -81,8 +81,8 @@
 
     <string-array name="entries_status_bar_am_pm">
         <item>Normal</item>
-        <item>Small</item>
-        <item>None (Default)</item>
+        <item>Küçük</item>
+        <item>Hiçbiri (Varsayılan)</item>
     </string-array>
 
     <string-array name="values_status_bar_am_pm" translatable="false">
@@ -92,9 +92,9 @@
     </string-array>
 
     <string-array name="entries_status_bar_battery">
-        <item>Icon (Default)</item>
-        <item>Percentage</item>
-        <item>Hidden</item>
+        <item>Simge (Varsayılan)</item>
+        <item>Yüzde</item>
+        <item>Gizli</item>
     </string-array>
 
     <string-array name="values_status_bar_battery" translatable="false">
@@ -170,9 +170,9 @@
     </string-array>
 
     <string-array name="haptic_feedback_entries">
-        <item>Global Settings</item>
-        <item>On</item>
-        <item>Off</item>
+        <item>Genel Ayarlar</item>
+        <item>Etkin</item>
+        <item>Pasif</item>
     </string-array>
 
     <string-array name="haptic_feedback_values" translatable="false">
@@ -224,12 +224,12 @@
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
-        <item>Use application setting</item>
-        <item>2 (Fast)</item>
+        <item>Uygulama ayarını kullan</item>
+        <item>2 (Hızlı)</item>
         <item>3</item>
-        <item>4 (Medium)</item>
+        <item>4 (Orta)</item>
         <item>5</item>
-        <item>6 (Slow)</item>
+        <item>6 (Yavaş)</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_values" translatable="false">
@@ -258,16 +258,16 @@
     </string-array>
 
     <string-array name="pref_lockscreen_delay_entries">
-        <item>Immediately</item>
-        <item>1s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>15s</item>  
-        <item>30s</item>
-        <item>1m</item>
-        <item>5m</item>
-        <item>10m</item>
-        <item>30m</item>
+        <item>Hemen</item>
+        <item>1sn</item>
+        <item>5sn</item>
+        <item>10sn</item>
+        <item>15sn</item>  
+        <item>30sn</item>
+        <item>1dk</item>
+        <item>5dk</item>
+        <item>10dk</item>
+        <item>30dk</item>
     </string-array>
 
     <string-array name="pref_lockscreen_delay_values" translatable="false">
@@ -284,9 +284,9 @@
     </string-array>
 
     <string-array name="pref_compcache_size_entries">
-        <item>Disabled</item>
+        <item>Devre dışı</item>
         <item>10%</item>
-        <item>18% (default)</item>
+        <item>18% (varsayılan)</item>
         <item>26%</item>
     </string-array>
 
@@ -316,7 +316,7 @@
     </string-array>
 
     <string-array name="entries_light_filter_reset">
-        <item>Disabled</item>
+        <item>Devre dışı</item>
         <item>400 lux</item>
         <item>500 lux</item>
         <item>600 lux</item>
@@ -372,7 +372,7 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
-        <item>20 (default)</item>
+        <item>20 (varsayılan)</item>
         <item>22</item>
         <item>24</item>
         <item>26</item>
@@ -426,7 +426,7 @@
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
-        <item>6 dB (default)</item>
+        <item>6 dB (varsayılan)</item>
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
@@ -440,8 +440,8 @@
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Attenuated system setting</item>
-        <item>Music volume (default)</item>
+        <item>Kısık sistem ayarı</item>
+        <item>Müzik sesi (varsayılan)</item>
     </string-array>
 
     <string-array name="values_sound_limitvol" translatable="false">
@@ -469,8 +469,8 @@
 
     <string-array name="entries_network_widget">
         <item>2G/3G+2G</item>  
-        <item>2G/3G Only</item>   
-        <item>2G/3G Only/3G+2G</item>
+        <item>Sadece 2G/3G</item>   
+        <item>2G/3G Sadece/3G+2G</item>
     </string-array>
 
     <string-array name="values_network_widget" translatable="false">
@@ -480,8 +480,8 @@
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
-        <item>15s/1m/5m</item>
-        <item>30s/2m/5m</item>
+        <item>15s/1d/5d</item>
+        <item>30s/2d/5d</item>
     </string-array>
 
     <string-array name="values_screentimeout_widget" translatable="false">
@@ -505,7 +505,7 @@
 
     <string-array name="entries_flash_widget">
         <item>Normal</item>
-        <item>High / Death Ray</item>
+        <item>Yüksek / Düşük Işık</item>
     </string-array>
 
     <string-array name="values_flash_widget" translatable="false">
@@ -514,7 +514,7 @@
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (broadest)</item>
+        <item>1 (geniş)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -525,7 +525,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (strictest)</item>
+        <item>12 (dar)</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_values" translatable="false">
@@ -604,9 +604,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_background_entries">
-        <item>Color fill</item>
-        <item>Custom image</item>
-        <item>Default wallpaper</item>
+        <item>Renk doldur</item>
+        <item>Özel resim</item>
+        <item>Varsayılan arkaplan</item>
     </string-array>
 
     <string-array name="pref_lockscreen_background_values" translatable="false">
@@ -630,10 +630,10 @@
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_entries">
-        <item>Disabled</item>
-        <item>Wired Headset</item>
-        <item>Bluetooth A2DP Headset</item>
-        <item>Both</item>
+        <item>Devre dışı</item>
+        <item>Kablolu Kulaklık</item>
+        <item>Kablosuz Kulaklık</item>
+        <item>Her ikisi</item>
     </string-array>
 
     <string-array name="pref_lockscreen_music_headset_values" translatable="false">
@@ -644,12 +644,12 @@
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_lookahead_entries">
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>3 days</item>
-        <item>1 week</item>
+        <item>3 saat</item>
+        <item>6 saat</item>
+        <item>12 saat</item>
+        <item>1 gün</item>
+        <item>3 gün</item>
+        <item>1 hafta</item>
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_lookahead_values" translatable="false">
@@ -662,9 +662,9 @@
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_entries">
-        <item>Do not show</item>
-        <item>Show first line</item>
-        <item>Show all</item>
+        <item>Gösterme</item>
+        <item>İlk satırı göster</item>
+        <item>Tümünü göster</item>
     </string-array>
 
     <string-array name="pref_lockscreen_calendar_show_event_metadata_values" translatable="false">
@@ -674,10 +674,10 @@
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
-        <item>None</item>
-        <item>Edge Glow</item>
-        <item>Bounce and Glow</item>
-        <item>Bounce</item>
+        <item>Hiçbiri</item>
+        <item>Parlama</item>
+        <item>Parlama ve Sıçrama</item>
+        <item>Sıçrama</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_values" translatable="false">
@@ -688,11 +688,11 @@
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Extra Heavy</item>
-        <item>Heavy</item>
-        <item>Medium</item>
-        <item>Light</item>
-        <item>Extra Light</item>
+        <item>Çok sert</item>
+        <item>Sert</item>
+        <item>Orta</item>
+        <item>Hafif</item>
+        <item>Çok hafif</item>
     </string-array>
 
     <string-array name="values_overscroll_weight" translatable="false">
@@ -728,18 +728,18 @@
     </string-array>
 
     <string-array name="entries_vol_actions">
-        <item>None/Default</item>
-        <item>Home</item>
-        <item>Menu</item>
-        <item>Back</item>
-        <item>Search</item>
-        <item>Power</item>
-        <item>Call</item>
-        <item>End call</item>
-        <item>Play/Pause</item>
-        <item>Next track</item>
-        <item>Prev track</item>
-        <item>Long press home</item>
+        <item>Hiçbiri/Varsayılan</item>
+        <item>Ev</item>
+        <item>Menü</item>
+        <item>Geri</item>
+        <item>Arama</item>
+        <item>Güç</item>
+        <item>Çağrı</item>
+        <item>Çağrıyı bitir</item>
+        <item>Oynat/Beklet</item>
+        <item>Sonraki</item>
+        <item>Önceki</item>
+        <item>Ev (basılı)</item>
     </string-array>
 
     <string-array name="values_vol_actions" translatable="false">
@@ -758,13 +758,13 @@
     </string-array>
 
     <string-array name="entries_unhide_button">
-        <item>Home</item>
-        <item>Menu</item>
-        <item>Back</item>
-        <item>Search</item>
-        <item>Camera</item>
-        <item>Volume Up</item>
-        <item>Volume Down</item>
+        <item>Ev</item>
+        <item>Menü</item>
+        <item>Geri</item>
+        <item>Arama</item>
+        <item>Kamera</item>
+        <item>Ses +</item>
+        <item>Ses -</item>
     </string-array>
 
     <string-array name="values_unhide_button" translatable="false">
@@ -778,11 +778,11 @@
     </string-array>
 
     <string-array name="entries_long_press_menu">
-        <item>None</item>
-        <item>Soft keyboard</item>
-        <item>Search key</item>
-        <item>Custom Application</item>
-        <item>Toggle statusbar</item>
+        <item>Hiçbiri</item>
+        <item>Klavye</item>
+        <item>Arama tuşu</item>
+        <item>Özel uygulama</item>
+        <item>Bildirim çubuğunu aç/kapat</item>
     </string-array>
 
     <string-array name="values_long_press_menu" translatable="false">
