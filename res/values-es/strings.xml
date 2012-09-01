@@ -37,6 +37,8 @@
 
     <string name="pref_electron_beam_animation_on">Animación al encender pantalla</string>
     <string name="pref_electron_beam_animation_off">Animación al apagar pantalla</string>
+    <string name="pref_rotation_animation_title">Animación para rotación</string>
+    <string name="pref_rotation_animation_summary">Animación para las rotaciones de la pantalla (requiere reiniciar)</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Ajustes Tablet</string>
@@ -95,6 +97,8 @@
     <string name="ui_status_bar_am_pm_summary">Ver estilo de AM/PM siguiente del reloj</string>
     <string name="ui_status_bar_clock_title">Mostrar reloj</string>
     <string name="ui_status_bar_clock_summary">Se esconde si se deshabilita</string>
+    <string name="ui_status_bar_alarm_title">Mostrar icono de alarma</string>
+    <string name="ui_status_bar_alarm_summary">Se esconde si se deshabilita</string>
     <string name="ui_status_bar_battery_title">Estilo del indicador de batería</string>
     <string name="ui_status_bar_battery_summary">Cambiar el estilo del indicador de batería</string>
     <string name="ui_status_bar_compact_carrier_title">Etiqueta compacta de operador</string>
@@ -106,7 +110,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">Mostrar PLMN</string>
     <string name="ui_status_bar_carrier_label_use_custom">Texto personalizado</string>
     <string name="ui_status_bar_carrier_label_custom_title">Etiqueta personalizada</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Cambiar el texto para el nombre del operador</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Cambiar el texto para el nombre del operador. Usa \"$n\" para nueva línea y \"$d\", \"$p\" o \"$s\" para predeterminado, PLMN o SPN respectivamente</string>
     <string name="ui_status_bar_toggle_brightness">Barra de estado de control de brillo</string>
     <string name="ui_status_bar_toggle_brightness_summary">Permite el ajuste de brillo deslizando a través de la barra de estado</string>
     <string name="ui_status_bar_toggle_info">Brillo automático está habilitado</string>
@@ -131,11 +135,13 @@
     <string name="pref_share_screenshot_summary">Mostrar el menú \"Compartir\" al realizar una captura (de pantalla)</string>
 
     <!-- User interface : Overscroll -->
-    <string name="ui_overscroll_title">Superposición</string>
-    <string name="pref_overscroll_title">Efecto superposición</string>
-    <string name="pref_overscroll_summary">Elige como se ven los objetos cuando se superponen</string>
-    <string name="pref_overscroll_weight_title">Anchura superposición</string>
-    <string name="pref_overscroll_weight_summary">Selecciona el ancho de los objetos superpuestos</string>
+    <string name="ui_overscroll_title">Sobredesplazamiento</string>
+    <string name="pref_overscroll_title">Efecto sobredesplazamiento</string>
+    <string name="pref_overscroll_summary">Elige el efecto para el sobredesplazamiento</string>
+    <string name="pref_overscroll_weight_title">Anchura del efecto</string>
+    <string name="pref_overscroll_weight_summary">Elige el ancho para el efecto de sobredesplazamiento</string>
+    <string name="pref_overscroll_color_title">Color del efecto</string>
+    <string name="pref_overscroll_color_summary">Elige el color para el efecto de sobredesplazamiento</string>
 
     <!-- User interface : Lock Screen -->
     <string name="pref_lockscreen_delay_title">Tiempo de espera</string>
@@ -683,6 +689,8 @@
     <string name="sound_notifications_limitvol_dialog">Volumen de las notificaciones</string>
     <string name="sound_rings_limitvol_dialog">Volumen del tono de llamada</string>
     <string name="sound_alarms_limitvol_dialog">Volumen de la alarma</string>
+    <string name="sound_swap_volume_keys_dialog">Intercambiar a\u2026</string>
+    <string name="sound_swap_volume_keys_title">Intercambiar teclas volumen</string>
 
     <!-- Quiet hours -->
     <string name="sound_category_quiet_hours_title">Horas de silencio</string>

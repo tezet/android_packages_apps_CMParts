@@ -10,6 +10,7 @@
     <string name="display_settings_title_head">Bildschirm</string>
     <string name="display_settings_title_subhead">Bildschirm-Einstellungen</string>
     <string name="display_settings_summary_head">Bildschirm-Animationen, Ausrichtung, Helligkeitssteuerung</string>
+    <string name="display_settings_summary_head_nobacklight">Bildschirm-Animationen, Ausrichtung</string>
     <string name="input_settings_title_head">Eingabe</string>
     <string name="input_settings_title_subhead">Eingabeeinstellungen</string>
     <string name="input_settings_summary_head">Tasten, Haptisches Feedback, …</string>
@@ -37,6 +38,8 @@
 
     <string name="pref_electron_beam_animation_on">Einschalten animieren</string>
     <string name="pref_electron_beam_animation_off">Ausschalten animieren</string>
+    <string name="pref_rotation_animation_title">Drehungs-Animation</string>
+    <string name="pref_rotation_animation_summary">Drehung des Bildschirminhaltes bei Drehung des Gerätes animieren (benötigt Neustart)</string>
 
     <!-- User interface: Tablet tweaks -->
     <string name="tablet_tweaks_title_head">Tablet-Einstellungen</string>
@@ -106,7 +109,7 @@
     <string name="ui_status_bar_carrier_label_use_plmn">Netzwerk-Betreiber-Name (PLMN)</string>
     <string name="ui_status_bar_carrier_label_use_custom">Benutzerdefiniert</string>
     <string name="ui_status_bar_carrier_label_custom_title">Benutzerdef. Betreiber</string>
-    <string name="ui_status_bar_carrier_label_custom_summary">Als Betreibername angezeigter Text</string>
+    <string name="ui_status_bar_carrier_label_custom_summary">Als Betreibername angezeigter Text. ($n = Neue Zeile, $d = Standard, $p = Netzwerk-Betreiber-Name, $s = Service-Provider-Name)</string>
     <string name="ui_status_bar_toggle_brightness">Helligkeitsregler</string>
     <string name="ui_status_bar_toggle_brightness_summary">Erlaubt Änderung der Helligkeit, indem mit dem Finger über die Statusleiste gewischt wird</string>
     <string name="ui_status_bar_toggle_info">Automatische Helligkeit ist aktiviert</string>

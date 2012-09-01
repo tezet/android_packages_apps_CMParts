@@ -67,7 +67,7 @@
     <string-array name="pref_compcache_size_entries">
         <item>禁用</item>
         <item>10%</item>
-        <item>18% (默认)</item>
+        <item>18%</item>
         <item>26%</item>
     </string-array>
 
@@ -204,6 +204,14 @@
         <item>中等</item>
         <item>轻</item>
         <item>特别轻</item>
+    </string-array>
+
+    <string-array name="swap_volume_keys_orientation_list_entries">
+        <item>从不</item>
+        <item>0度</item>
+        <item>90度</item>
+        <item>180度</item>
+        <item>270度</item>
     </string-array>
 
     <string-array name="entries_vol_actions">
